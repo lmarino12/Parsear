@@ -1,0 +1,18 @@
+{
+  "name": "tienda",
+  "version": "1.0.0",
+  "description": "Sistema de Facturacion",
+  "main": "servidor.js",
+  "scripts": {
+    "dev": "node ./servidor.js"
+  },
+  "author": "Luis Mariño",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5"
+  }
+}
